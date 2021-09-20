@@ -1,0 +1,73 @@
+#aboutList {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+#aboutList li {
+    padding-left: 2rem;
+    background-image: url("../resources/Pages/about/iconmonstr-star-7.svg");
+    background-position: 0 0;
+    background-size: 1.6rem 0.8rem;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
+
+h1{
+    color: #00AABB;
+}
+
+#module {
+    color: crimson;
+}
+
+#univ a{
+    text-decoration: none;
+}
+
+#univ a, #univ a:visited{
+    color: black;
+}
+
+section {
+    text-align: center;
+}
+
+h1, caption {
+    font-family: "Century Schoolbook L";
+    font-style: italic;
+}
+
+caption {
+    background-color: #00AABB;
+    font-size: larger;
+    color: whitesmoke;
+}
+
+.tableRecap {
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tableRecap, .tableRecap th, .tableRecap td {
+    width: 50%;
+}
+
+.tableRecap td,th {
+    border: 4px solid black;
+}
+
+.tableRecap th {
+    font-family: monospace;
+    border: thin solid #6495ed;
+    padding: 5px;
+    background-color: #D0E3FA;
+}
+
+.tableRecap td {
+    font-family: sans-serif;
+    border: thin solid #6495ed;
+    padding: 5px;
+    text-align: center;
+    background-color: #ffffff;
+}

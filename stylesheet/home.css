@@ -1,0 +1,88 @@
+main {
+    /*width: 50%;
+    /*display: table-cell;
+    vertical-align: middle;*/
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+h1{
+    font-size: 40px;
+    font-style: italic;
+    text-shadow: -1px -1px darkslategrey, 1px 1px antiquewhite, -3px 0 4px darkslategrey;
+    font-family:Arial, Helvetica, sans-serif;
+    color: gold;
+    padding:16px;
+    font-weight:lighter;
+    -moz-box-shadow: 2px 2px 6px #888;
+    -webkit-box-shadow: 2px 2px 6px #888;
+    box-shadow:2px 2px 6px #888;
+    text-align:center;
+    display:block;
+    margin:16px;
+    background-image:url(../resources/Pages/home/Background-Music-4.jpg);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px 50px;
+    list-style-type: none;
+    /*margin-left: 75px;*/
+}
+
+#fig {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 355px;
+    margin: auto;
+}
+
+.gallery li a img {
+    max-width: 355px;
+    max-height: 355px;
+}
+
+.gallery li a {
+    text-decoration: none;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
+
+#artist {
+    font: bold large sans-serif;
+    font-style: italic;
+}
+
+#album {
+    font: italic small sans-serif;
+}
+
+
+#navPagination {
+    padding-left: 45%;
+}
+
+.pagination li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.pagination a {
+    color: whitesmoke;
+    float: left;
+    padding: 25px 15px;
+    text-decoration: none;
+}
+
+.page-link a:active{
+    background-color: #4CAF50;
+    color: whitesmoke;
+}

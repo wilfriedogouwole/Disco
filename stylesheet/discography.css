@@ -1,0 +1,70 @@
+
+.discography {
+    background-color: #4CAF50;
+    text-align: center;
+    margin-top: 3.5%;
+}
+
+.discography, .discList {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    border: 8px solid darkslategrey;
+    color: whitesmoke;
+}
+
+h1{
+    font-size: 40px;
+    font-style: italic;
+    text-shadow: -1px -1px darkslategrey, 1px 1px antiquewhite, -3px 0 4px darkslategrey;
+    font-family:Arial, Helvetica, sans-serif;
+    color: gold;
+    padding:16px;
+    font-weight:lighter;
+    -moz-box-shadow: 2px 2px 6px #888;
+    -webkit-box-shadow: 2px 2px 6px #888;
+    box-shadow:2px 2px 6px #888;
+    text-align:center;
+    display:block;
+    margin:16px;
+    background-image:url(../resources/Pages/home/Background-Music-4.jpg);
+}
+
+.divHeader {
+    border-right: solid 8px;
+    font: bold italic large serif;
+    border-color: darkslategrey;
+}
+
+
+.album, .year {
+    border-bottom: solid 8px;
+}
+
+.year {
+    padding: 5%;
+    border-right: solid 8px;
+    background-color: #4CAF50;
+    font-size: large;
+}
+
+.album, .year {
+    border-color: darkslategrey;
+}
+
+.album {
+    background-color: #D0E3FA;
+    color: blue;
+}
+
+.listing li {
+    list-style-type: none;
+}
+
+.listing li a {
+    text-decoration: none;
+}
+
+.listing li a:visited {
+    color: inherit;
+}

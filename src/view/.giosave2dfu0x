@@ -1,0 +1,23 @@
+<?php
+include '/src/Router.php'
+?>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>formulaire</title>
+
+</head>
+<h1>Page formulaire</h1>
+<body>
+
+<form action="<?php $r=new Router(); echo $r->getAnimalSaveURL();?>"method="POST">
+  <label>Nom : <input type="text" name="login" placeholder="entrer votre nom"></label> <button type="submit">enregistrer</button>
+  <label>espece : <input type="text" name="login" placeholder="entrer votre espece"></label> <button type="submit">enregistrer</button>
+  <label>age : <input type="text" name="login" placeholder="entrer votre age"></label> <button type="submit">enregistrer</button>
+
+
+</body>
+
+</html>

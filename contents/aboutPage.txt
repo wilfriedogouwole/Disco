@@ -1,0 +1,152 @@
+                <ul id='aboutList' style="color:whitesmoke">
+                    <li> <p> 21812350 VOUVOU Brandon </p> </li>
+                    <li> <p> 21814023 OGOUWELE Derrick </p> </li>
+                    <li> <p> 21911445 KEITA Lansana </p> </li>
+                    <li> <p> 21910271 TOUBAKILA Naslie </p> </li>
+                </ul>
+            
+            
+            <table class='tableRecap'> 
+                <caption>Récapitulatif sur la répartition des tâches</caption>
+                
+                <thead>
+                    <tr>
+                        <th>  </th>
+                        <th> VOUVOU Brandon </th>
+                        <th> OGOUWELE Derrick </th>
+                        <th>  TOUBAKILA Naslie</th>
+                        <th>  KEITA Lansana</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <th> Structures du projeten MVCR, création des premières classes/fichiers </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                    </tr>
+                    
+                    <tr>
+                        <th> Structures et création de la table des utilisateurs pour la base de données </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                    </tr>
+                    
+                    <tr>
+                        <th> Structures et création de la table des disques pour la base de données </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                    </tr>
+
+                    
+                    <tr>
+                        <th> Implémentation des classes, interfaces et utiles méthodes pour la création d'un disque </th>
+                        <th>  <input type='checkbox' id='checkbox' > </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                    </tr>
+                    
+                    <tr>
+                        <th> Implémentation des classes, interfaces et méthodes utiles pour la création d'un compte </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' > </th>
+                        <th>  <input type='checkbox' id='checkbox' > </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                    </tr>
+                    
+                    <tr>
+                        <th> Génération des pages pour la vue </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                    </tr>
+                    
+                    <tr>
+                        <th> Gestion des routes sur le site </th>
+                        <th>  <input type='checkbox' id='checkbox' > </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                    </tr>
+                    
+                    <tr>
+                        <th> Gestion des controleurs </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                    </tr>
+                    
+                    <tr>
+                        <th> Gestion des Accès (user/admin/visiteur) </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' > </th>
+                        <th>  <input type='checkbox' id='checkbox' > </th>
+                    </tr>
+                    
+                    <tr>
+                        <th> Style du menu </th>
+                        <th>  <input type='checkbox' id='checkbox' > </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' > </th>
+                        <th>  <input type='checkbox' id='checkbox' > </th>
+                    </tr>
+                    
+                    <tr>
+                        <th> Style du footer </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' > </th>
+                        <th>  <input type='checkbox' id='checkbox' > </th>
+                        <th>  <input type='checkbox' id='checkbox' > </th>
+                    </tr>
+
+                    <tr>
+                        <th> Style de l'accueil </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' > </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' > </th>
+                    </tr>
+
+                    <tr>
+                        <th> Style de la page discographie </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                    </tr>
+
+                    <tr>
+                        <th> Style des formulaires </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                    </tr>
+
+                    <tr>
+                        <th> Pagination de la liste (avec N objets par page) </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' > </th>
+                        <th>  <input type='checkbox' id='checkbox' > </th>
+                        <th>  <input type='checkbox' id='checkbox' > </th>
+                    </tr>
+
+                    <tr>
+                        <th> recherche d'objets et traitement du formulaire de recherche </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                        <th>  <input type='checkbox' id='checkbox' checked> </th>
+                    </tr>
+                </tbody>
+            </table>
