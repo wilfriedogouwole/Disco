@@ -81,7 +81,7 @@ class DatabaseLocal
     public function createAccount(Account $account)
     {
 
-         $requete = $this->pdo->prepare("INSERT INTO utilisateurs (id,nom, prenom, pseudo, password, status) VALUES ('?',:firstname,:name,:username,:password,:status);");
+         $requete = $this->pdo->prepare("INSERT INTO utilisateurs (id,nom, prenom, pseudo, password, status) VALUES ('0',:firstname,:name,:username,:password,:status);");
          $data = array(':firstname' => $account->getFirstname(),
                        ':name' => $account->getName(),
                        ':username' => $account->getPseudo(),
@@ -330,7 +330,7 @@ class DatabaseLocal
             $username = $this->getUserIdByUsername($session['user']);
             $userID   = $username['id'];
 
-            $requete  = $this->pdo->prepare("INSERT INTO album (id_album, artist, discname, cover, releaseYear, label, user_id) VALUES ('?',:artist, :discname , :cover, :annee , :label, '$userID'); ");
+            $requete  = $this->pdo->prepare("INSERT INTO album (id_album, artist, discname, cover, releaseYear, label, user_id) VALUES ('0',:artist, :discname , :cover, :annee , :label, '$userID'); ");
             $data = array(':artist'   => $disc->getArtist(),
                           ':discname' => $disc->getName(),
                           ':cover'    => $disc->getCover(),
