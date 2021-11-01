@@ -18,7 +18,7 @@ class Router
     public function main(AccountStorage $accountStorage)
     {
         session_start();
-        session_set_cookie_params(3600);
+   
 
         $feedback = key_exists("feedback", $_SESSION)? $_SESSION["feedback"] : null;
         $vue = new View($this, $feedback);
